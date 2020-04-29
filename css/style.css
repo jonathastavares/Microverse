@@ -1,11 +1,52 @@
 .bg-gray {
-    background-color: gray;
+    background-color: #eee;
 }
 
 .bg-white {
     background-color: white;
 }
 
-#img {
-    height: 200px;
+#image {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#img-div {
+    width: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.profile-picture-container {
+    max-width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tribute-text-container {
+    width: 50%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
 }
